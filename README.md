@@ -1,13 +1,16 @@
 # load-conf
 
-Easy access to your project's config files
+Easy access to your project's config files... no more require (
+"../.../../my.conf" )
 
 ## Getting Started
 (soon) Install the module with: `npm install load-conf`
 
 ```javascript
 var load_conf = require( "load-conf" )
-	, cbConf = load_conf( "db" )
+	, dbConf = load_conf( "db" )
+
+// Do something with your db config
 ```
 
 ## Documentation
