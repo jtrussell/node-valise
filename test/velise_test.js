@@ -2,6 +2,12 @@
 
 var velise = require("../lib/velise.js");
 
+velise
+	.mixin({
+		"confdir": __dirname + "/confdir",
+		"sub": __dirname + "/confdir/subdir"
+	}).setDefault( "sub" );
+
 /*
   ======== A Handy Little Nodeunit Reference ========
   https://github.com/caolan/nodeunit
@@ -22,15 +28,40 @@ var velise = require("../lib/velise.js");
     test.ifError(value)
 */
 
-exports["awesome"] = {
-  setUp: function(done) {
+exports["velise_test"] = {
+  setUp: function( done ) {
     // setup here
     done();
   },
-  "no args": function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(velise.awesome(), "awesome", "should be awesome.");
+
+	"result is as expected": function( test ) {
+		test.expect( 2 ); // Not necessary for sync test... but good habit anyway
+
+		test.equal(
+			velise( "foo" ).supa,
+			"blargus",
+			"Should be able to fetch resources with velise (default syntax)"
+		);
+
+		test.equal(
+			velise( "confdir:bar" ).awesome,
+			"sauce",
+			"Should be able to fetch reources with velise (explicit prefix)"
+		);
+
+		test.done();
+	},
+
+  "prefix is optional for default location": function( test ) {
+    test.expect( 1 );
+
+    test.equal(
+			velise( "foo" ),
+			velise( "sub:foo" ),
+			"Prefix should be optional for default location."
+		);
+
     test.done();
   }
+
 };

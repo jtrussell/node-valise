@@ -72,8 +72,11 @@ velise
 awesomeLib = velise( "awesome" );
 ```
 
+## Tests
+`npm test`
+
 ## Examples
-_(Coming soon)_
+See `test/velise_test.js`
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](http://gruntjs.com/).
