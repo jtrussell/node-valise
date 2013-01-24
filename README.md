@@ -17,9 +17,9 @@ var velise = require( "velise" )
 ## Documentation
 Velise is essentially a hash of locations you would like to `require` from. It
 is tailored for granting convenient access to your config files and other such
-resources that for whatever reason don't live in your `node\_modules` folder.
+resources that for whatever reason don't live in your `node_modules` folder.
 
-By default velise assumes you have a `conf` folder next to your `node\_modules`
+By default velise assumes you have a `conf` folder next to your `node_modules`
 folder and will fetch resources from there.
 
 ```javascript
