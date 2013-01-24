@@ -1,13 +1,13 @@
-# load-conf
+# velise
 
-Easy access to your project's config files... no more `require (
-"../.../../my.conf" )`
+Easy access to your project's config files, libs, schemas, etc... no more
+`require ( "../......../../my.conf" )`
 
 ## Getting Started
-(soon) Install the module with: `npm install load-conf`
+(soon) Install the module with: `npm install velise`
 
 ```javascript
-var load_conf = require( "load-conf" )
+var load_conf = require( "velise" )
 	, dbConf = load_conf( "db" )
 
 // Do something with your db config

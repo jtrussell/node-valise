@@ -1,6 +1,6 @@
 "use strict";
 
-var load_conf = require("../lib/load-conf.js");
+var load_conf = require("../lib/velise.js");
 
 /*
   ======== A Handy Little Nodeunit Reference ========

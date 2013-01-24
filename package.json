@@ -1,26 +1,26 @@
 {
-  "name": "load-conf",
+  "name": "velise",
   "description": "Easy access to your project's config files",
   "version": "0.2.0",
-  "homepage": "https://github.com/jrussell-ivantage/load-conf",
+  "homepage": "https://github.com/jrussell-ivantage/node-velise",
   "author": {
     "name": "Justin Russell",
     "email": "jrussell@ivantagehealth.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jrussell-ivantage/load-conf.git"
+    "url": "git://github.com/jrussell-ivantage/node-velise.git"
   },
   "bugs": {
-    "url": "https://github.com/jrussell-ivantage/load-conf/issues"
+    "url": "https://github.com/jrussell-ivantage/node-velise/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jrussell-ivantage/load-conf/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jrussell-ivantage/node-velise/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/load-conf",
+  "main": "lib/velise",
   "engines": {
     "node": ">= 0.6.0"
   },
