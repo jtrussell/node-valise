@@ -1,8 +1,8 @@
 "use strict";
 
-var velise = require("../lib/velise.js");
+var valise = require("../lib/valise.js");
 
-velise
+valise
 	.mixin({
 		"confdir": __dirname + "/confdir",
 		"sub": __dirname + "/confdir/subdir"
@@ -28,7 +28,7 @@ velise
     test.ifError(value)
 */
 
-exports["velise_test"] = {
+exports["valise_test"] = {
   setUp: function( done ) {
     // setup here
     done();
@@ -38,15 +38,15 @@ exports["velise_test"] = {
 		test.expect( 2 ); // Not necessary for sync test... but good habit anyway
 
 		test.equal(
-			velise( "foo" ).supa,
+			valise( "foo" ).supa,
 			"blargus",
-			"Should be able to fetch resources with velise (default syntax)"
+			"Should be able to fetch resources with valise (default syntax)"
 		);
 
 		test.equal(
-			velise( "confdir:bar" ).awesome,
+			valise( "confdir:bar" ).awesome,
 			"sauce",
-			"Should be able to fetch reources with velise (explicit prefix)"
+			"Should be able to fetch reources with valise (explicit prefix)"
 		);
 
 		test.done();
@@ -56,8 +56,8 @@ exports["velise_test"] = {
     test.expect( 1 );
 
     test.equal(
-			velise( "foo" ),
-			velise( "sub:foo" ),
+			valise( "foo" ),
+			valise( "sub:foo" ),
 			"Prefix should be optional for default location."
 		);
 
