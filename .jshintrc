@@ -1,15 +1,40 @@
 {
-  "curly": true,
-  "eqeqeq": true,
-  "immed": true,
-  "latedef": true,
-  "newcap": true,
-  "noarg": true,
-  "sub": true,
-  "undef": true,
-  "unused": true,
-  "boss": true,
-  "eqnull": true,
-  "node": true,
-  "es5": true
+	"predef": [
+		"console",
+		"alert",
+		"task", "desc", 
+		"Ext",
+		"SB",
+		"XDate"
+	]
+	, "browser":   true
+	, "node":      true
+	, "devel":     false
+	, "asi":       false	
+	, "bitwise":   false
+ 	, "boss":      false
+	, "camelcase": true
+	, "curly":     true
+	, "debug":     false
+	, "eqeqeq":    true
+	, "eqnull":    true
+	, "evil":      true
+	, "forin":     true 
+	, "immed":     true
+	, "latedef":   true
+	, "laxcomma":  true
+	, "newcap":    true
+	, "noarg":     true
+	, "noempty":   false
+	, "nonew":     true
+	, "onevar":    true
+	, "plusplus":  false
+	, "regexp":    false
+	, "smarttabs": true
+	, "strict":    false
+	, "sub":       true
+	, "trailing":  true
+	, "undef":     true
+	, "unused":    false
+	, "white":     false
 }
