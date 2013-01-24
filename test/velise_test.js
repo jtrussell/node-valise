@@ -1,6 +1,6 @@
 "use strict";
 
-var load_conf = require("../lib/velise.js");
+var velise = require("../lib/velise.js");
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -30,7 +30,7 @@ exports["awesome"] = {
   "no args": function(test) {
     test.expect(1);
     // tests here
-    test.equal(load_conf.awesome(), "awesome", "should be awesome.");
+    test.equal(velise.awesome(), "awesome", "should be awesome.");
     test.done();
-  },
+  }
 };
