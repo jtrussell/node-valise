@@ -3,11 +3,11 @@
 Easy access to your project's config files
 
 ## Getting Started
-Install the module with: `npm install load-conf`
+(soon) Install the module with: `npm install load-conf`
 
 ```javascript
-var load_conf = require('load-conf');
-load_conf.awesome(); // "awesome"
+var load_conf = require( "load-conf" )
+	, cbConf = load_conf( "db" )
 ```
 
 ## Documentation
