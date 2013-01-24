@@ -1,7 +1,7 @@
 {
   "name": "velise",
   "description": "Easy access to your project's config files",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "https://github.com/jrussell-ivantage/node-velise",
   "author": {
     "name": "Justin Russell",
