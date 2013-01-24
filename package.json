@@ -1,0 +1,36 @@
+{
+  "name": "load-conf",
+  "description": "Easy access to your project's config files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jrussell-ivantage/load-conf",
+  "author": {
+    "name": "Justin Russell",
+    "email": "jrussell@ivantagehealth.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrussell-ivantage/load-conf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrussell-ivantage/load-conf/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jrussell-ivantage/load-conf/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/load-conf",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "0.1.1rc6",
+    "grunt-contrib-nodeunit": "0.1.2rc6",
+    "grunt": "0.4.0rc6"
+  },
+  "keywords": []
+}
