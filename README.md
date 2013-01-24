@@ -5,7 +5,7 @@ Velise provides easy access to your project's config files, libs, schemas,
 etc... no more `require ( "../......../../myConf.json" )`
 
 ## Getting Started
-(soon) Install the module with: `npm install velise`
+Install the module with: `npm install velise`
 
 ```javascript
 var velise = require( "velise" )
