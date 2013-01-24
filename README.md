@@ -1,7 +1,7 @@
 # load-conf
 
-Easy access to your project's config files... no more require (
-"../.../../my.conf" )
+Easy access to your project's config files... no more `require (
+"../.../../my.conf" )`
 
 ## Getting Started
 (soon) Install the module with: `npm install load-conf`
